@@ -19,25 +19,17 @@ export default function HeroSection() {
       <div className="relative mx-auto grid w-full max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 md:py-20 lg:grid-cols-2 lg:gap-16 lg:px-12">
         {/* Left Content */}
         <div className="order-2 max-w-xl md:order-1">
-          {/* <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3.5 py-2">
-            <span className="size-2 rounded-full bg-emerald-500" />
-            <span className="text-xs font-medium text-muted-foreground">
-              Open to opportunities
-            </span>
-          </div> */}
 
-          {/* <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
-            Hello, I'm 
-          </p> */}
 
           <h1 className="text-4xl font-bold leading-[1.12] tracking-tight sm:text-5xl lg:text-5xl">
             Hi, I'm Muhit Ahmed
-            <span className="mt-2 block text-lg font-semibold sm:text-xl lg:text-2xl">
+            <span className="mt-4 block text-lg font-semibold sm:text-xl lg:text-2xl">
               <Typewriter
                 words={[
                   "Full-Stack Web Developer",
-                  "Software Engineer",
-                  "Next.js Developer",
+                  "Full-Stack Engineer",
+                  "Backend Developer",
+                  "WordPress Developer",
                 ]}
                 loop={0}
                 cursor
@@ -64,47 +56,50 @@ export default function HeroSection() {
               Download Resume
             </Link>
 
+
             <Link
-              href="#projects"
-              className="inline-flex h-12 items-center justify-center gap-2 rounded-lg border border-border px-5 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+              href="#contact"
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-lg border-y-2 border-primary px-5 text-sm font-semibold text-foreground transition-colors hover:border-sky-500 hover:text-primary"
             >
               Get In Touch
               <ArrowUpRight size={17} />
             </Link>
+
           </div>
 
           {/* Social Links */}
-          <div className="mt-9 capitalize flex items-center gap-5">
-            <span className="text-sm text-muted-foreground">
+
+          <div className="mt-10 flex flex-wrap items-center gap-4">
+            <span className="text-sm font-medium text-muted-foreground">
               Connect with me
             </span>
 
             <Link
-              href="https://github.com/YOUR_USERNAME"
+              href="https://github.com/Muhit4312"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
-              className="text-muted-foreground transition-colors hover:text-primary"
+              className="flex size-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all duration-300 hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
             >
               <FaGithub className="size-5" />
             </Link>
 
             <Link
-              href="https://linkedin.com/in/YOUR_USERNAME"
+              href="https://www.linkedin.com/in/muhitwebdevs/?isSelfProfile=true"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
-              className="text-muted-foreground transition-colors hover:text-primary"
+              className="flex size-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all duration-300 hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
             >
               <FaLinkedinIn className="size-5" />
             </Link>
 
             <Link
-              href="#contact"
-              aria-label="Contact me"
-              className="text-muted-foreground transition-colors hover:text-primary"
+              href="mailto:muhit.hossain4312@gmail.com"
+              aria-label="Send email"
+              className="flex size-10 items-center justify-center rounded-full border border-border text-muted-foreground transition-all duration-300 hover:border-primary/50 hover:bg-primary/10 hover:text-primary"
             >
-              <Mail size={20} />
+              <Mail className="size-5" />
             </Link>
           </div>
 
@@ -118,7 +113,7 @@ export default function HeroSection() {
 
             <div className="relative size-64 overflow-hidden rounded-full border border-border bg-muted shadow-2xl shadow-primary/10 sm:size-80 lg:size-[400px]">
               <Image
-                src="/profile.png"
+                src="/pic-8443a0c8-ad66-4cf8-be48-de205966232e.jpg"
                 alt="Muhit Ahmed — Full-Stack Developer"
                 fill
                 priority

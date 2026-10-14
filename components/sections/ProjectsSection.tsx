@@ -80,7 +80,7 @@ export default function ProjectsSection() {
 
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               Featured Projects
-              <span className="text-violet-400">.</span>
+              <span className="text-sky-400">.</span>
             </h2>
 
             <p className="mt-3 max-w-xl text-sm leading-7 text-slate-400">
