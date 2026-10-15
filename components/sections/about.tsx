@@ -52,7 +52,7 @@ export default function AboutSection() {
 
         <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
           <div>
-            <h3 className="max-w-2xl text-xl font-semibold leading-relaxed sm:text-2xl">
+            <h3 className="max-w-2xl capitalize text-xl font-semibold leading-relaxed sm:text-2xl">
               I build digital experiences that combine{" "}
               <span className="text-primary">thoughtful design</span> with
               reliable engineering.

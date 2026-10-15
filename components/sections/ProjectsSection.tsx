@@ -62,7 +62,7 @@ const projects = [
   },
 ];
 
-export default function ProjectsSection() {
+export default function ProjectsSectionOld() {
   const [selectedProject, setSelectedProject] =
     useState<(typeof projects)[number] | null>(null);
 

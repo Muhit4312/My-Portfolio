@@ -1,8 +1,8 @@
+import ProjectsSectionNew from "@/components/projects/ProjectsSection";
 import About from "@/components/sections/about";
 import ContactSection from "@/components/sections/contractSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import HeroSection from "@/components/sections/hero";
-import ProjectsSection from "@/components/sections/ProjectsSection";
 import Skills from "@/components/sections/skills";
 import FooterSection from "@/components/shared/FooterSection";
 import Navbar from "@/components/shared/navbar";
@@ -21,7 +21,7 @@ export default function Home() {
           <About />
           <Skills />
           <ExperienceSection />
-          <ProjectsSection />
+          <ProjectsSectionNew />
           <ContactSection />
         </section>
       </main>
